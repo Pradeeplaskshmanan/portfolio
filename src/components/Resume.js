@@ -1,12 +1,9 @@
 import ResumeIMG from '../assets/resume.jpg';
 import PRADEEP_Resume_1 from'../components/PRADEEP_Resume_1.pdf'
 export default function Resume (){
-    const config={
-        link:'https://drive.google.com/file/d/14LjUEoSBYh6hm6LkDaGl5MgEbEkDZZxf/view?usp=sharing'
-    }
     return <section id='Resume' className='flex flex-col md:flex-row bg-secondary px-5'>
         <div className='py-5 md:w-1/2 flex justify-center md:justify-end'>
-            <img className='w-[500px]'src={ResumeIMG}/>
+            <img className='w-[500px]'src={ResumeIMG} alt=""/>
         </div>
         <div className='md:w-1/2 flex justify-center'>
             <div className='flex flex-col justify-center text-white'>
