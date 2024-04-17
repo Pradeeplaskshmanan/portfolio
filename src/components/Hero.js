@@ -1,5 +1,5 @@
 import HeroImg from '../assets/hero.png'
-import { AiOutlineTwitter,AiOutlineLinkedin,AiOutlineGithub,AiOutlineMail } from "react-icons/ai";
+import { AiOutlineLinkedin,AiOutlineGithub } from "react-icons/ai";
 export default function Hero(){
     return <section className='flex flex-col md:flex-row px-5 py-32 bg-primary justify-center'>
         <div className='md:w-1/2 flex flex-col'>
@@ -12,6 +12,6 @@ export default function Hero(){
             </div>
         </div>
         
-        <img className='md:w-1/3' src={HeroImg}/>
+        <img className='md:w-1/3' src={HeroImg} alt=""/>
     </section>
 }
